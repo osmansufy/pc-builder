@@ -1,0 +1,681 @@
+{
+    "products": [
+      {
+        "id": "cpu1",
+        "slug": "intel-core-i9-11900k",
+        "image": "https://cdn.pixabay.com/photo/2014/11/21/08/31/board-540253_640.jpg",
+        "productName": "Intel Core i9-11900K",
+        "category": "cpu_processor",
+        "status": "In Stock",
+        "price": 499.99,
+        "description": "Powerful 11th Gen Intel Core i9 processor for high-performance computing.",
+        "keyFeatures": {
+          "Brand": "Intel",
+          "Model": "Core i9-11900K",
+          "Specification": "8 Cores, 16 Threads",
+          "Port": "LGA1200",
+          "Type": "Desktop",
+          "Voltage": "1.35V"
+        },
+        "individualRating": 4.8,
+        "averageRating": 4.6,
+        "reviews": [
+          {
+            "username": "User123",
+            "rating": 5,
+            "comment": "Excellent performance!"
+          },
+          {
+            "username": "TechGeek",
+            "rating": 4,
+            "comment": "Great processor, but a bit pricey."
+          }
+        ]
+      },
+      {
+        "id": "cpu2",
+        "slug": "amd-ryzen-9-5900x",
+        "image": "https://cdn.pixabay.com/photo/2014/12/28/02/23/mother-board-581597_960_720.jpg",
+        "productName": "AMD Ryzen 9 5900X",
+        "category": "cpu_processor",
+        "status": "In Stock",
+        "price": 549.99,
+        "description": "High-end AMD Ryzen processor with 12 cores and 24 threads.",
+        "keyFeatures": {
+          "Brand": "AMD",
+          "Model": "Ryzen 9 5900X",
+          "Specification": "12 Cores, 24 Threads",
+          "Port": "AM4",
+          "Type": "Desktop",
+          "Voltage": "1.45V"
+        },
+        "individualRating": 4.9,
+        "averageRating": 4.7,
+        "reviews": [
+          {
+            "username": "GamingGuru",
+            "rating": 5,
+            "comment": "Unmatched performance for gaming and multitasking!"
+          },
+          {
+            "username": "TechEnthusiast",
+            "rating": 5,
+            "comment": "Best processor for content creation!"
+          }
+        ]
+      },
+      {
+        "id": "cpu3",
+        "slug": "amd-ryzen-5-5600x",
+        "image": "https://cdn.pixabay.com/photo/2014/11/21/08/31/board-540253_640.jpg",
+        "productName": "AMD Ryzen 5 5600X",
+        "category": "cpu_processor",
+        "status": "In Stock",
+        "price": 299.99,
+        "description": "Powerful AMD Ryzen processor for gaming and productivity.",
+        "keyFeatures": {
+          "Brand": "AMD",
+          "Model": "Ryzen 5 5600X",
+          "Specification": "6 Cores, 12 Threads",
+          "Port": "AM4",
+          "Type": "Desktop",
+          "Voltage": "1.35V"
+        },
+        "individualRating": 4.7,
+        "averageRating": 4.5,
+        "reviews": [
+          {
+            "username": "GamerX",
+            "rating": 4,
+            "comment": "Great value for money!"
+          },
+          {
+            "username": "TechMaster",
+            "rating": 5,
+            "comment": "Perfect for my gaming setup."
+          }
+        ]
+      },
+      {
+        "id": "mobo1",
+        "slug": "asus-rog-strix-z590-e",
+        "image": "https://pixabay.com/static/frontend/3c346409d336d5f09a7f.svg",
+        "productName": "ASUS ROG Strix Z590-E Gaming",
+        "category": "motherboard",
+        "status": "In Stock",
+        "price": 299.99,
+        "description": "High-end gaming motherboard with advanced features.",
+        "keyFeatures": {
+          "Brand": "ASUS",
+          "Model": "ROG Strix Z590-E Gaming",
+          "Specification": "ATX, LGA1200, Intel Z590",
+          "Port": "USB 3.2, HDMI, DisplayPort",
+          "Type": "Gaming",
+          "Voltage": "12V"
+        },
+        "individualRating": 4.7,
+        "averageRating": 4.5,
+        "reviews": [
+          {
+            "username": "GamerGal",
+            "rating": 5,
+            "comment": "Perfect for my gaming rig!"
+          },
+          {
+            "username": "PCBuilderPro",
+            "rating": 4,
+            "comment": "Solid motherboard, but BIOS could be improved."
+          }
+        ]
+      },
+      {
+        "id": "mobo2",
+        "slug": "gigabyte-b550-aorus-elite",
+        "image": "https://cdn.pixabay.com/photo/2023/04/03/19/37/soldering-7897827_1280.jpg",
+        "productName": "GIGABYTE B550 AORUS Elite",
+        "category": "motherboard",
+        "status": "In Stock",
+        "price": 169.99,
+        "description": "Feature-rich motherboard with support for the latest AMD Ryzen processors.",
+        "keyFeatures": {
+          "Brand": "GIGABYTE",
+          "Model": "B550 AORUS Elite",
+          "Specification": "ATX, AMD B550",
+          "Port": "USB 3.2, HDMI, DisplayPort",
+          "Type": "Gaming",
+          "Voltage": "12V"
+        },
+        "individualRating": 4.6,
+        "averageRating": 4.4,
+        "reviews": [
+          {
+            "username": "AMDUser",
+            "rating": 4,
+            "comment": "Great budget-friendly choice for Ryzen CPUs."
+          },
+          {
+            "username": "TechEnthusiast21",
+            "rating": 5,
+            "comment": "Solid performance and excellent build quality."
+          }
+        ]
+      },
+      {
+        "id": "mobo3",
+        "slug": "msi-mpg-z590-gaming-edge-wifi",
+        "image": "https://cdn.pixabay.com/photo/2012/03/01/01/06/micro-chip-19980_640.jpg",
+        "productName": "MSI MPG Z590 Gaming Edge WiFi",
+        "category": "motherboard",
+        "status": "In Stock",
+        "price": 249.99,
+        "description": "Gaming-oriented motherboard with built-in Wi-Fi support.",
+        "keyFeatures": {
+          "Brand": "MSI",
+          "Model": "MPG Z590 Gaming Edge WiFi",
+          "Specification": "ATX, LGA1200, Intel Z590",
+          "Port": "USB 3.2, HDMI, DisplayPort",
+          "Type": "Gaming",
+          "Voltage": "12V"
+        },
+        "individualRating": 4.8,
+        "averageRating": 4.6,
+        "reviews": [
+          {
+            "username": "GamingFreak",
+            "rating": 5,
+            "comment": "Impressive gaming performance and stable overclocking."
+          },
+          {
+            "username": "TechReviewer22",
+            "rating": 4,
+            "comment": "Good motherboard, but the software could be improved."
+          }
+        ]
+      },
+      {
+        "id": "ram1",
+        "slug": "corsair-vengeance-rgb-pro-16gb-ddr4-3200mhz",
+        "image": "https://pixabay.com/static/frontend/3c346409d336d5f09a7f.svg",
+        "productName": "Corsair Vengeance RGB Pro 16GB (2 x 8GB) DDR4 3200MHz",
+        "category": "ram",
+        "status": "In Stock",
+        "price": 119.99,
+        "description": "High-performance DDR4 ram with RGB lighting.",
+        "keyFeatures": {
+          "Brand": "Corsair",
+          "Model": "Vengeance RGB Pro",
+          "Specification": "16GB (2 x 8GB) DDR4 3200MHz",
+          "Port": "288-Pin",
+          "Type": "RGB",
+          "Voltage": "1.35V"
+        },
+        "individualRating": 4.7,
+        "averageRating": 4.5,
+        "reviews": [
+          {
+            "username": "RGBEnthusiast",
+            "rating": 5,
+            "comment": "Gorgeous RGB effects and excellent performance."
+          },
+          {
+            "username": "TechFanatic",
+            "rating": 4,
+            "comment": "Great ram, but a bit pricey for the RGB feature."
+          }
+        ]
+      },
+      {
+        "id": "ram2",
+        "slug": "g-skill-ripjaws-v-series-32gb-ddr4-3600mhz",
+        "image": "https://cdn.pixabay.com/photo/2023/07/21/13/25/memory-8141642_1280.jpg",
+        "productName": "G.SKILL Ripjaws V Series 32GB (2 x 16GB) DDR4 3600MHz",
+        "category": "ram",
+        "status": "In Stock",
+        "price": 179.99,
+        "description": "High-speed DDR4 ram for multitasking and gaming.",
+        "keyFeatures": {
+          "Brand": "G.SKILL",
+          "Model": "Ripjaws V Series",
+          "Specification": "32GB (2 x 16GB) DDR4 3600MHz",
+          "Port": "288-Pin",
+          "Type": "Non-RGB",
+          "Voltage": "1.35V"
+        },
+        "individualRating": 4.8,
+        "averageRating": 4.6,
+        "reviews": [
+          {
+            "username": "GamingBeast",
+            "rating": 5,
+            "comment": "Excellent ram for gaming and content creation."
+          },
+          {
+            "username": "PCBuilderPro2022",
+            "rating": 4,
+            "comment": "Fast and reliable ram, but not a fan of the looks."
+          }
+        ]
+      },
+      {
+        "id": "ram3",
+        "slug": "crucial-ballistix-8gb-ddr4-3200mhz",
+        "image": "https://cdn.pixabay.com/photo/2012/04/01/12/44/dimm-ram-23265_640.png",
+        "productName": "Crucial Ballistix 8GB DDR4 3200MHz",
+        "category": "ram",
+        "status": "In Stock",
+        "price": 79.99,
+        "description": "Affordable and reliable DDR4 ram for general use.",
+        "keyFeatures": {
+          "Brand": "Crucial",
+          "Model": "Ballistix",
+          "Specification": "8GB DDR4 3200MHz",
+          "Port": "288-Pin",
+          "Type": "Non-RGB",
+          "Voltage": "1.35V"
+        },
+        "individualRating": 4.6,
+        "averageRating": 4.4,
+        "reviews": [
+          {
+            "username": "BudgetGamer",
+            "rating": 4,
+            "comment": "Good value for money, but limited capacity."
+          },
+          {
+            "username": "EverydayUser",
+            "rating": 5,
+            "comment": "Works well for my daily tasks and light gaming."
+          }
+        ]
+      },
+      {
+        "id": "psu1",
+        "slug": "evga-supernova-750-g-plus",
+        "image": "https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg",
+        "productName": "EVGA SuperNOVA 750 G+ 750W 80 Plus Gold",
+        "category": "power_supply_unit",
+        "status": "In Stock",
+        "price": 129.99,
+        "description": "High-quality power supply with 750W capacity and 80 Plus Gold efficiency.",
+        "keyFeatures": {
+          "Brand": "EVGA",
+          "Model": "SuperNOVA 750 G+",
+          "Specification": "750W, 80 Plus Gold",
+          "Port": "ATX 12V, EPS 12V",
+          "Type": "Non-Modular",
+          "Voltage": "100-240V"
+        },
+        "individualRating": 4.7,
+        "averageRating": 4.5,
+        "reviews": [
+          {
+            "username": "PCEnthusiastX",
+            "rating": 5,
+            "comment": "Reliable and efficient power supply for my high-end rig."
+          },
+          {
+            "username": "TechReviewer55",
+            "rating": 4,
+            "comment": "Great PSU, but I wish it was fully modular."
+          }
+        ]
+      },
+      {
+        "id": "psu2",
+        "slug": "corsair-rm850x-850w-80-plus-gold",
+        "image": "https://pixabay.com/static/frontend/3c346409d336d5f09a7f.svg",
+        "productName": "Corsair RM850x 850W 80 Plus Gold",
+        "category": "power_supply_unit",
+        "status": "In Stock",
+        "price": 159.99,
+        "description": "Premium 850W power supply with 80 Plus Gold certification.",
+        "keyFeatures": {
+          "Brand": "Corsair",
+          "Model": "RM850x",
+          "Specification": "850W, 80 Plus Gold",
+          "Port": "ATX 12V, EPS 12V",
+          "Type": "Fully Modular",
+          "Voltage": "100-240V"
+        },
+        "individualRating": 4.9,
+        "averageRating": 4.7,
+        "reviews": [
+          {
+            "username": "GamerExtreme",
+            "rating": 5,
+            "comment": "Top-notch power supply, no complaints!"
+          },
+          {
+            "username": "TechMaster2022",
+            "rating": 5,
+            "comment": "Fully modular design makes cable management a breeze."
+          }
+        ]
+      },
+      {
+        "id": "psu3",
+        "slug": "seasonic-s12iii-500w-80-plus-bronze",
+        "image": "https://cdn.pixabay.com/photo/2016/05/05/02/37/sunset-1373171_640.jpg",
+        "productName": "Seasonic S12III 500W 80 Plus Bronze",
+        "category": "power_supply_unit",
+        "status": "In Stock",
+        "price": 64.99,
+        "description": "Affordable 500W power supply with 80 Plus Bronze efficiency.",
+        "keyFeatures": {
+          "Brand": "Seasonic",
+          "Model": "S12III 500W",
+          "Specification": "500W, 80 Plus Bronze",
+          "Port": "ATX 12V, EPS 12V",
+          "Type": "Non-Modular",
+          "Voltage": "100-240V"
+        },
+        "individualRating": 4.6,
+        "averageRating": 4.4,
+        "reviews": [
+          {
+            "username": "BudgetBuilder",
+            "rating": 4,
+            "comment": "Decent PSU for the price, but lacks modular cables."
+          },
+          {
+            "username": "EverydayGamer",
+            "rating": 5,
+            "comment": "Works perfectly for my mid-range gaming setup."
+          }
+        ]
+      },
+      {
+        "id": "monitor-01",
+        "slug": "asus-rog-swift-pg279q-gaming-monitor",
+        "image": "https://cdn.pixabay.com/photo/2017/10/08/23/26/apple-2831949_640.png",
+        "productName": "ASUS ROG Swift PG279Q",
+        "category": "monitor",
+        "status": "In Stock",
+        "price": 699.99,
+        "description": "High-refresh-rate gaming monitor with IPS display and G-SYNC technology.",
+        "keyFeatures": {
+          "Brand": "ASUS",
+          "Model": "ROG Swift PG279Q",
+          "Specification": "27-inch, 2560x1440 resolution, 165Hz refresh rate",
+          "Port": "HDMI, DisplayPort",
+          "Type": "Gaming monitor",
+          "Voltage": "100-240V"
+        },
+        "individualRating": 4.8,
+        "averageRating": 4.6,
+        "reviews": [
+          {
+            "username": "GamingNinja",
+            "rating": 5,
+            "comment": "Top-tier gaming monitor with stunning colors."
+          },
+          {
+            "username": "TechEnthusiastX",
+            "rating": 4,
+            "comment": "Great gaming experience, but a bit expensive."
+          }
+        ]
+      },
+      {
+        "id": "monitor-02",
+        "slug": "lg-27uk850-w-4k-monitor",
+        "image": "https://pixabay.com/static/frontend/3c346409d336d5f09a7f.svg",
+        "productName": "LG 27UK850-W",
+        "category": "monitor",
+        "status": "In Stock",
+        "price": 449.99,
+        "description": "4K Ultra HD monitor with USB-C connectivity and HDR support.",
+        "keyFeatures": {
+          "Brand": "LG",
+          "Model": "27UK850-W",
+          "Specification": "27-inch, 3840x2160 resolution, 60Hz refresh rate",
+          "Port": "HDMI, DisplayPort, USB-C",
+          "Type": "4K monitor",
+          "Voltage": "100-240V"
+        },
+        "individualRating": 4.7,
+        "averageRating": 4.5,
+        "reviews": [
+          {
+            "username": "4KEnthusiast",
+            "rating": 5,
+            "comment": "Crystal-clear 4K display, great for productivity."
+          },
+          {
+            "username": "TechLover123",
+            "rating": 4,
+            "comment": "Solid 4K monitor, but 60Hz may not be enough for gaming."
+          }
+        ]
+      },
+      {
+        "id": "monitor-03",
+        "slug": "acer-r240hy-ips-monitor",
+        "image": "https://cdn.pixabay.com/photo/2016/04/08/06/25/screen-1315650_640.png",
+        "productName": "Acer R240HY",
+        "category": "monitor",
+        "status": "In Stock",
+        "price": 179.99,
+        "description": "Affordable Full HD monitor with an IPS display for everyday use.",
+        "keyFeatures": {
+          "Brand": "Acer",
+          "Model": "R240HY",
+          "Specification": "23.8-inch, 1920x1080 resolution, 60Hz refresh rate",
+          "Port": "HDMI, DVI, VGA",
+          "Type": "IPS monitor",
+          "Voltage": "100-240V"
+        },
+        "individualRating": 4.6,
+        "averageRating": 4.4,
+        "reviews": [
+          {
+            "username": "BudgetUser",
+            "rating": 4,
+            "comment": "Good budget monitor, but lacks modern connectivity options."
+          },
+          {
+            "username": "EverydayUser123",
+            "rating": 5,
+            "comment": "Clear and vibrant display for regular use."
+          }
+        ]
+      },
+      {
+        "id": "storage1",
+        "slug": "samsung-980-pro-1tb-nvme-pcie-4-m2-ssd",
+        "image": "https://cdn.pixabay.com/photo/2018/04/05/19/17/computer-3293873_640.jpg",
+        "productName": "Samsung 980 PRO 1TB NVMe PCIe 4.0 M.2 Internal SSD",
+        "category": "storage_device",
+        "status": "In Stock",
+        "price": 199.99,
+        "description": "High-speed NVMe SSD with PCIe 4.0 interface for ultra-fast storage performance.",
+        "keyFeatures": {
+          "Brand": "Samsung",
+          "Model": "980 PRO",
+          "Specification": "1TB NVMe PCIe 4.0 M.2",
+          "Port": "M.2",
+          "Type": "Internal SSD",
+          "Voltage": "3.3V"
+        },
+        "individualRating": 4.8,
+        "averageRating": 4.6,
+        "reviews": [
+          {
+            "username": "SpeedDemon",
+            "rating": 5,
+            "comment": "Insane read and write speeds, perfect for heavy tasks."
+          },
+          {
+            "username": "TechReviewer2023",
+            "rating": 4,
+            "comment": "Expensive, but worth it for the performance."
+          }
+        ]
+      },
+      {
+        "id": "storage2",
+        "slug": "wd-blue-2tb-sata-iii-25-inch-internal-ssd",
+        "image": "https://cdn.pixabay.com/photo/2023/03/27/07/59/hdd-7880077_1280.jpg",
+        "productName": "WD Blue 2TB SATA III 2.5-inch Internal SSD",
+        "category": "storage_device",
+        "status": "In Stock",
+        "price": 249.99,
+        "description": "Reliable 2TB SATA SSD for everyday computing and storage needs.",
+        "keyFeatures": {
+          "Brand": "WD",
+          "Model": "Blue",
+          "Specification": "2TB SATA III 2.5-inch",
+          "Port": "SATA III",
+          "Type": "Internal SSD",
+          "Voltage": "5V"
+        },
+        "individualRating": 4.7,
+        "averageRating": 4.5,
+        "reviews": [
+          {
+            "username": "EverydayUser2023",
+            "rating": 5,
+            "comment": "Fast and spacious SSD, great for storing large files."
+          },
+          {
+            "username": "TechEnthusiast23",
+            "rating": 4,
+            "comment": "Good SSD, but wish it had NVMe speeds."
+          }
+        ]
+      },
+      {
+        "id": "storage3",
+        "slug": "seagate-barracuda-4tb-35-inch-internal-hard-drive",
+        "image": "https://cdn.pixabay.com/photo/2015/01/22/07/03/hard-drive-607461_640.jpg",
+        "productName": "Seagate BarraCuda 4TB 3.5-inch Internal Hard Drive",
+        "category": "storage_device",
+        "status": "In Stock",
+        "price": 119.99,
+        "description": "High-capacity 4TB hard drive for reliable data storage.",
+        "keyFeatures": {
+          "Brand": "Seagate",
+          "Model": "BarraCuda",
+          "Specification": "4TB 3.5-inch",
+          "Port": "SATA III",
+          "Type": "Internal HDD",
+          "Voltage": "12V"
+        },
+        "individualRating": 4.6,
+        "averageRating": 4.4,
+        "reviews": [
+          {
+            "username": "DataHoarder",
+            "rating": 4,
+            "comment": "Great for mass storage, but slower than SSDs."
+          },
+          {
+            "username": "PCBuilder2023",
+            "rating": 5,
+            "comment": "Reliable and spacious HDD for my PC build."
+          }
+        ]
+      },
+      {
+        "id": "oth-04",
+        "slug": "logitech-mx-master-3-wireless-mouse",
+        "image": "https://cdn.pixabay.com/photo/2015/02/02/11/09/office-620822_640.jpg",
+        "productName": "Logitech MX Master 3 Wireless Mouse",
+        "category": "others",
+        "status": "In Stock",
+        "price": 99.99,
+        "description": "Advanced wireless mouse with ergonomic design and customizable buttons for productivity.",
+        "keyFeatures": {
+          "Brand": "Logitech",
+          "Model": "MX Master 3",
+          "Specification": "Wireless, Bluetooth, USB Receiver",
+          "Port": "USB",
+          "Type": "Wireless Mouse",
+          "Voltage": "3.7V"
+        },
+        "individualRating": 4.9,
+        "averageRating": 4.8,
+        "reviews": [
+          {
+            "username": "ProductivityPro",
+            "rating": 5,
+            "comment": "The MX Master 3 is a game-changer for productivity tasks!"
+          },
+          {
+            "username": "MouseLover123",
+            "rating": 4,
+            "comment": "Great mouse, but the price is a bit high."
+          }
+        ]
+      },
+      {
+        "id": "oth-05",
+        "slug": "razer-blackwidow-elite-mechanical-gaming-keyboard",
+        "image": "https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849825_1280.jpg",
+        "productName": "Razer BlackWidow Elite Mechanical Gaming Keyboard",
+        "category": "others",
+        "status": "In Stock",
+        "price": 129.99,
+        "description": "High-performance mechanical gaming keyboard with RGB lighting and customizable macros.",
+        "keyFeatures": {
+          "Brand": "Razer",
+          "Model": "BlackWidow Elite",
+          "Specification": "Razer Green Mechanical Switches, 5 Dedicated Macro Keys",
+          "Port": "USB",
+          "Type": "Gaming Keyboard",
+          "Voltage": "5V"
+        },
+        "individualRating": 4.7,
+        "averageRating": 4.6,
+        "reviews": [
+          {
+            "username": "GamingWarrior",
+            "rating": 5,
+            "comment": "The BlackWidow Elite is a beast for gaming and typing!"
+          },
+          {
+            "username": "TechGuru2023",
+            "rating": 4,
+            "comment": "Fantastic keyboard, but I wish it had more switch options."
+          }
+        ]
+      },
+      {
+        "id": "oth-06",
+        "slug": "blue-yeti-nano-usb-microphone",
+        "image": "https://cdn.pixabay.com/photo/2016/03/26/13/09/cup-of-coffee-1280537_640.jpg",
+        "productName": "Blue Yeti Nano USB Microphone",
+        "category": "others",
+        "status": "In Stock",
+        "price": 89.99,
+        "description": "Compact and versatile USB microphone for streaming and podcasting.",
+        "keyFeatures": {
+          "Brand": "Blue",
+          "Model": "Yeti Nano",
+          "Specification": "Cardioid and Omnidirectional Recording Modes",
+          "Port": "USB",
+          "Type": "USB Microphone",
+          "Voltage": "5V"
+        },
+        "individualRating": 4.6,
+        "averageRating": 4.4,
+        "reviews": [
+          {
+            "username": "StreamerGuru",
+            "rating": 5,
+            "comment": "The Yeti Nano is the perfect microphone for beginner streamers!"
+          },
+          {
+            "username": "ContentCreator2023",
+            "rating": 4,
+            "comment": "Good microphone for recording videos, but the volume knob could be improved."
+          }
+        ]
+      }
+      
+      
+      
+      
+    ]
+  }
+  

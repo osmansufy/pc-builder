@@ -1,0 +1,33 @@
+{
+    "categories": [
+      {
+        "id": "cpu_processor",
+        "name": "CPU / Processor"
+      },
+      {
+        "id": "motherboard",
+        "name": "Motherboard"
+      },
+      {
+        "id": "ram",
+        "name": "RAM"
+      },
+      {
+        "id": "power_supply_unit",
+        "name": "Power Supply Unit"
+      },
+      {
+        "id": "storage_device",
+        "name": "Storage Device"
+      },
+      {
+        "id": "monitor",
+        "name": "Monitor"
+      },
+      {
+        "id": "others",
+        "name": "Others"
+      }
+    ]
+  }
+  
