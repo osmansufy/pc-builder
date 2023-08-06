@@ -16,8 +16,9 @@ const handler = async (
     );
     if (product) {
       res.status(200).json(product);
+    } else {
+      res.status(404).json({ error: "Product not found" });
     }
-    res.status(404).json({ error: "Product not found" });
   } catch (error: any) {
     console.log(error);
     res.status(500).json({ error });

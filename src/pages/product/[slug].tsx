@@ -15,6 +15,12 @@ export default ProductDetailsPage;
 
 
 export const getStaticPaths = async () => {
+    // if (typeof window === 'undefined') {
+    //     return {
+    //         paths: [],
+    //         fallback: false
+    //     }
+    // }
 
     try {
         // get all categories from api server
@@ -40,6 +46,13 @@ export const getStaticPaths = async () => {
 
 export const getStaticProps = async ({ params }: { params: { slug: string } }) => {
 
+    // if (typeof window === 'undefined') {
+    //     return {
+    //         props: {
+    //             product: null
+    //         }
+    //     }
+    // }
     let product = null;
     try {
         if (params.slug) {

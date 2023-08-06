@@ -15,6 +15,13 @@ const PcBuilderOptionPage = ({ products }: {
 export default PcBuilderOptionPage;
 
 export const getServerSideProps = async ({ params }: { params: { category: string } }) => {
+    // if (typeof window === 'undefined') {
+    //     return {
+    //         props: {
+    //             products: []
+    //         }
+    //     }
+    // }
     try {
         // fetch data from an API
         const { data } = await axios.get(`${process.env.NEXT_PUBLIC_API_URL}/categoryProducts/${params.category}`);

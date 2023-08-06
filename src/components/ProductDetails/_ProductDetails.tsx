@@ -15,7 +15,7 @@ const ProductDetails = ({ product }: {
                     className='bg-white  shadow-xl flex justify-center items-center p-4'
                 >
                     <div className="relative w-full h-40 ">
-                        <Image src={product.image} alt={product.productName} layout='fill' objectFit='cover' />
+                        <Image src={product?.image} alt={product?.productName} layout='fill' objectFit='cover' />
                     </div>
                 </div>
 
@@ -24,26 +24,26 @@ const ProductDetails = ({ product }: {
                 <div className="flex flex-col px-2 py-4   gap-3  bg-white border shadow-xl ">
                     <h1 className="text-3xl text-center font-semibold text-gray-800 dark:text-white ">
                         {
-                            product.productName
+                            product?.productName
                         }
                     </h1>
                     {/* review & rating */}
                     <div className="flex gap-3">
 
-                        <RatingContent rating={Math.floor(product.averageRating)} />
+                        {product?.averageRating && <RatingContent rating={Math.floor(product?.averageRating)} />}
                         <p className='text-sm'>
-                            {product.reviews.length} Reviews
+                            {product?.reviews.length} Reviews
                         </p>
                     </div>
                     <div className="flex  gap-3">
                         <p className="text-gray-600 dark:text-gray-400 bg-slate-400 px-2">
-                            Category: <span className="text-gray-900 dark:text-white font-semibold">{product.category}</span>
+                            Category: <span className="text-gray-900 dark:text-white font-semibold">{product?.category}</span>
                         </p>
                         <p className="text-gray-600 dark:text-gray-400 bg-slate-400 px-2">
-                            Stock: <span className="text-gray-900 dark:text-white font-semibold">{product.status}</span>
+                            Stock: <span className="text-gray-900 dark:text-white font-semibold">{product?.status}</span>
                         </p>
                         <p className="text-gray-600 dark:text-gray-400 bg-slate-400 px-2">
-                            Price: <span className="text-gray-900 dark:text-white font-semibold">{product.price}</span>
+                            Price: <span className="text-gray-900 dark:text-white font-semibold">{product?.price}</span>
                         </p>
 
                     </div>
@@ -56,7 +56,7 @@ const ProductDetails = ({ product }: {
                             Quick Overview
                         </h3>
                         {
-                            Object.entries(product.keyFeatures).map(([key, value]) => (
+                            product?.keyFeatures && Object.entries(product?.keyFeatures).map(([key, value]) => (
                                 <p key={key} className="text-gray-600 dark:text-gray-400">
                                     {key}: <span className="text-gray-900 dark:text-white font-semibold">{value}</span>
                                 </p>
@@ -68,8 +68,8 @@ const ProductDetails = ({ product }: {
 
             </div>
             <ProductInfoTab
-                description={product.description}
-                reviews={product.reviews}
+                description={product?.description}
+                reviews={product?.reviews}
             />
         </div>
     );

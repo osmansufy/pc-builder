@@ -16,6 +16,12 @@ export default CategoryPage;
 
 
 export const getStaticPaths = async () => {
+    // if (typeof window === 'undefined') {
+    //     return {
+    //         paths: [],
+    //         fallback: false
+    //     }
+    // }
 
     try {
         // get all categories from api server
@@ -40,7 +46,13 @@ export const getStaticPaths = async () => {
 
 export const getStaticProps = async ({ params }: { params: { categorySlug: string } }) => {
     let products = [];
-    console.log({ params })
+    // if (typeof window === 'undefined') {
+    //     return {
+    //         props: {
+    //             products: []
+    //         }
+    //     }
+    // }
     try {
         if (params.categorySlug) {
             const { data } = await axios.get(`${process.env.NEXT_PUBLIC_API_URL}/categoryProducts/${params.categorySlug}`);

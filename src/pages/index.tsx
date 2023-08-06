@@ -20,6 +20,14 @@ export default function Home({ categories, products }: {
 export const getStaticProps = async () => {
   let categories = [];
   let products = [];
+  // if (typeof window === 'undefined') {
+  //   return {
+  //     props: {
+  //       products: [],
+  //       categories: []
+  //     }
+  //   }
+  // }
   try {
     // get all categories from api server
     const { data } = await axios.get(`${process.env.NEXT_PUBLIC_API_URL}/categories`);
